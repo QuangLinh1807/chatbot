@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Homepage", "1. Homepage", "{37E986B5-BC18-49E8-B50B-382DC18CA5DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Backend", "2. Backend", "{BBCA1DE0-6C44-40CF-B58F-89CAA0593597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Cms", "3. Cms", "{AF248A5A-54A3-4C4D-8F26-3B8E8E9E0DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Api", "4. Api", "{4DE5C855-561F-4B81-B6A7-9B81A58DE908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.React.Homepage", "Homepage\Databay.Chatbot.React.Homepage\Databay.Chatbot.React.Homepage.csproj", "{08BC4065-2094-4FC6-BA18-60C1F12D8F27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{84EE607C-2AAB-4A62-B2A1-10127AD0DFAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.React.Cms", "CMS\Databay.Chatbot.React.Cms\Databay.Chatbot.React.Cms.csproj", "{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.React.Backend", "Backend\Databay.Chatbot.React.Backend\Databay.Chatbot.React.Backend.csproj", "{BF0E1E33-7241-4C2C-870A-B2452E608A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{9B80841C-7405-45C8-9BC9-1C0E2E4CA75D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BotConfiguration", "BotConfiguration", "{4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Api", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Api\Databay.Chatbot.BotConfiguration.Api.csproj", "{29956880-5F67-4603-95D7-5999834FD4F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Application", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Application\Databay.Chatbot.BotConfiguration.Application.csproj", "{BA6992C5-71DF-4E3D-8618-674D8B66F560}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Domain.Core", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Domain.Core\Databay.Chatbot.BotConfiguration.Domain.Core.csproj", "{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Domain.Data", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Domain.Data\Databay.Chatbot.BotConfiguration.Domain.Data.csproj", "{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Infrastructure.Data", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Infrastructure.Data\Databay.Chatbot.BotConfiguration.Infrastructure.Data.csproj", "{C2CD53F2-2B68-47B4-982B-44078871D08E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.BotConfiguration.Infrastructure.IoC", "Api\BotConfiguration\Databay.Chatbot.BotConfiguration.Infrastructure.IoC\Databay.Chatbot.BotConfiguration.Infrastructure.IoC.csproj", "{B310325A-41B1-42EE-9E47-DF2CD7219F2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.Gateway", "Api\Gateway\Databay.Chatbot.Gateway\Databay.Chatbot.Gateway.csproj", "{F4BFC088-A655-40D8-AA33-1DA135B3F44E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.Identity.Api", "Api\Identity\Databay.Chatbot.Identity.Api\Databay.Chatbot.Identity.Api.csproj", "{E429635F-0C7C-418B-8B2D-CF88EC78F2B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Realtime", "5. Realtime", "{36118894-44A2-4AD5-93E8-CF72FC6F1C8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Databay.Chatbot.SignalR.ServerChat", "5. Realtime\Databay.Chatbot.SignalR.ServerChat\Databay.Chatbot.SignalR.ServerChat.csproj", "{2D94FC69-71B4-43E2-9A63-6583B66DBA96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08BC4065-2094-4FC6-BA18-60C1F12D8F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BC4065-2094-4FC6-BA18-60C1F12D8F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BC4065-2094-4FC6-BA18-60C1F12D8F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BC4065-2094-4FC6-BA18-60C1F12D8F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0E1E33-7241-4C2C-870A-B2452E608A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0E1E33-7241-4C2C-870A-B2452E608A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0E1E33-7241-4C2C-870A-B2452E608A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0E1E33-7241-4C2C-870A-B2452E608A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29956880-5F67-4603-95D7-5999834FD4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29956880-5F67-4603-95D7-5999834FD4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29956880-5F67-4603-95D7-5999834FD4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29956880-5F67-4603-95D7-5999834FD4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6992C5-71DF-4E3D-8618-674D8B66F560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6992C5-71DF-4E3D-8618-674D8B66F560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6992C5-71DF-4E3D-8618-674D8B66F560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6992C5-71DF-4E3D-8618-674D8B66F560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CD53F2-2B68-47B4-982B-44078871D08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CD53F2-2B68-47B4-982B-44078871D08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CD53F2-2B68-47B4-982B-44078871D08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CD53F2-2B68-47B4-982B-44078871D08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B310325A-41B1-42EE-9E47-DF2CD7219F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B310325A-41B1-42EE-9E47-DF2CD7219F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B310325A-41B1-42EE-9E47-DF2CD7219F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B310325A-41B1-42EE-9E47-DF2CD7219F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BFC088-A655-40D8-AA33-1DA135B3F44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BFC088-A655-40D8-AA33-1DA135B3F44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BFC088-A655-40D8-AA33-1DA135B3F44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BFC088-A655-40D8-AA33-1DA135B3F44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E429635F-0C7C-418B-8B2D-CF88EC78F2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E429635F-0C7C-418B-8B2D-CF88EC78F2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E429635F-0C7C-418B-8B2D-CF88EC78F2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E429635F-0C7C-418B-8B2D-CF88EC78F2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D94FC69-71B4-43E2-9A63-6583B66DBA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D94FC69-71B4-43E2-9A63-6583B66DBA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D94FC69-71B4-43E2-9A63-6583B66DBA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D94FC69-71B4-43E2-9A63-6583B66DBA96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08BC4065-2094-4FC6-BA18-60C1F12D8F27} = {37E986B5-BC18-49E8-B50B-382DC18CA5DF}
+		{84EE607C-2AAB-4A62-B2A1-10127AD0DFAC} = {4DE5C855-561F-4B81-B6A7-9B81A58DE908}
+		{16E976E4-803F-4B82-ABF6-9F2B8B2F0B2A} = {AF248A5A-54A3-4C4D-8F26-3B8E8E9E0DDF}
+		{BF0E1E33-7241-4C2C-870A-B2452E608A22} = {BBCA1DE0-6C44-40CF-B58F-89CAA0593597}
+		{9B80841C-7405-45C8-9BC9-1C0E2E4CA75D} = {4DE5C855-561F-4B81-B6A7-9B81A58DE908}
+		{4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F} = {4DE5C855-561F-4B81-B6A7-9B81A58DE908}
+		{29956880-5F67-4603-95D7-5999834FD4F9} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{BA6992C5-71DF-4E3D-8618-674D8B66F560} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{0E7D8A5D-C46A-4D9E-B788-31F779FD6E68} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{E9265A5B-D450-49F6-BD1D-B88A36ADA1E8} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{C2CD53F2-2B68-47B4-982B-44078871D08E} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{B310325A-41B1-42EE-9E47-DF2CD7219F2B} = {4853DB1B-D25A-47DF-B4F7-8A7422EDCB9F}
+		{F4BFC088-A655-40D8-AA33-1DA135B3F44E} = {9B80841C-7405-45C8-9BC9-1C0E2E4CA75D}
+		{E429635F-0C7C-418B-8B2D-CF88EC78F2B2} = {84EE607C-2AAB-4A62-B2A1-10127AD0DFAC}
+		{2D94FC69-71B4-43E2-9A63-6583B66DBA96} = {36118894-44A2-4AD5-93E8-CF72FC6F1C8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C4EADCD-49A4-463A-B10E-A6C1674D1511}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sdcbigtime:8080/tfs/managementapplication
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Api\\Databay.Chatbot.BotConfiguration.Api.csproj
+		SccProjectTopLevelParentUniqueName1 = Chatbot.sln
+		SccProjectName1 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Api
+		SccLocalPath1 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Api
+		SccProjectUniqueName2 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Application\\Databay.Chatbot.BotConfiguration.Application.csproj
+		SccProjectTopLevelParentUniqueName2 = Chatbot.sln
+		SccProjectName2 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Application
+		SccLocalPath2 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Application
+		SccProjectUniqueName3 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Domain.Core\\Databay.Chatbot.BotConfiguration.Domain.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = Chatbot.sln
+		SccProjectName3 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Domain.Core
+		SccLocalPath3 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Domain.Core
+		SccProjectUniqueName4 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Domain.Data\\Databay.Chatbot.BotConfiguration.Domain.Data.csproj
+		SccProjectTopLevelParentUniqueName4 = Chatbot.sln
+		SccProjectName4 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Domain.Data
+		SccLocalPath4 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Domain.Data
+		SccProjectUniqueName5 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Infrastructure.Data\\Databay.Chatbot.BotConfiguration.Infrastructure.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = Chatbot.sln
+		SccProjectName5 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Infrastructure.Data
+		SccLocalPath5 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Infrastructure.Data
+		SccProjectUniqueName6 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Infrastructure.IoC\\Databay.Chatbot.BotConfiguration.Infrastructure.IoC.csproj
+		SccProjectTopLevelParentUniqueName6 = Chatbot.sln
+		SccProjectName6 = Api/BotConfiguration/Databay.Chatbot.BotConfiguration.Infrastructure.IoC
+		SccLocalPath6 = Api\\BotConfiguration\\Databay.Chatbot.BotConfiguration.Infrastructure.IoC
+		SccProjectUniqueName7 = Api\\Gateway\\Databay.Chatbot.Gateway\\Databay.Chatbot.Gateway.csproj
+		SccProjectTopLevelParentUniqueName7 = Chatbot.sln
+		SccProjectName7 = Api/Gateway/Databay.Chatbot.Gateway
+		SccLocalPath7 = Api\\Gateway\\Databay.Chatbot.Gateway
+		SccProjectUniqueName8 = Api\\Identity\\Databay.Chatbot.Identity.Api\\Databay.Chatbot.Identity.Api.csproj
+		SccProjectTopLevelParentUniqueName8 = Chatbot.sln
+		SccProjectName8 = Api/Identity/Databay.Chatbot.Identity.Api
+		SccLocalPath8 = Api\\Identity\\Databay.Chatbot.Identity.Api
+		SccProjectUniqueName9 = Backend\\Databay.Chatbot.React.Backend\\Databay.Chatbot.React.Backend.csproj
+		SccProjectTopLevelParentUniqueName9 = Chatbot.sln
+		SccProjectName9 = Backend/Databay.Chatbot.React.Backend
+		SccLocalPath9 = Backend\\Databay.Chatbot.React.Backend
+		SccProjectUniqueName10 = CMS\\Databay.Chatbot.React.Cms\\Databay.Chatbot.React.Cms.csproj
+		SccProjectTopLevelParentUniqueName10 = Chatbot.sln
+		SccProjectName10 = CMS/Databay.Chatbot.React.Cms
+		SccLocalPath10 = CMS\\Databay.Chatbot.React.Cms
+		SccProjectUniqueName11 = Homepage\\Databay.Chatbot.React.Homepage\\Databay.Chatbot.React.Homepage.csproj
+		SccProjectTopLevelParentUniqueName11 = Chatbot.sln
+		SccProjectName11 = Homepage/Databay.Chatbot.React.Homepage
+		SccLocalPath11 = Homepage\\Databay.Chatbot.React.Homepage
+		SccProjectUniqueName12 = 5.\u0020Realtime\\Databay.Chatbot.SignalR.ServerChat\\Databay.Chatbot.SignalR.ServerChat.csproj
+		SccProjectTopLevelParentUniqueName12 = Chatbot.sln
+		SccProjectName12 = 5.\u0020Realtime/Databay.Chatbot.SignalR.ServerChat
+		SccLocalPath12 = 5.\u0020Realtime\\Databay.Chatbot.SignalR.ServerChat
+	EndGlobalSection
+EndGlobal

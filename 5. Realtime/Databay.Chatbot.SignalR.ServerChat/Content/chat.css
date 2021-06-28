@@ -1,0 +1,288 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/*
+    ------------------------- CHAT BOX --------------------
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- GENERAL ---------- */
+
+body {
+    background: #e9e9e9;
+    color: #9a9a9a;
+    font: 100%/1.5em "Droid Sans", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h4, h5 {
+    line-height: 1.5em;
+    margin: 0;
+}
+
+hr {
+    background: #e9e9e9;
+    border: 0;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 1px;
+    margin: 0;
+    min-height: 1px;
+}
+
+img {
+    border: 0;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+input {
+    border: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+    /* For IE 6/7 */
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+/* ---------- LIVE-CHAT ---------- */
+
+#live-chat, #live-chat2, #live-chat3 {
+    bottom: 80px;
+    font-size: 12px;
+    right: 24px;
+    position: fixed;
+    width: 360px;
+    display: none;
+}
+#live-chat2{
+    right: 100px;
+}
+
+#live-chat3{
+    right: 200px;
+}
+    #live-chat header, #live-chat2 header, #live-chat3 header {
+        /*background: #293239;
+        color: #fff;
+        cursor: pointer;*/
+        border-radius: 10px 10px 0 0;
+        padding: 16px 24px;
+        background: #fff;
+        color: #414142;
+        border-bottom: 1px solid rgba(0, 0, 0, .10);
+        text-align: center;
+    }
+
+    /*#live-chat h4:before {
+        background: #1a8a34;
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        height: 8px;
+        margin: 0 8px 0 0;
+        width: 8px;
+    }*/
+
+    #live-chat h4, #live-chat2 h4, #live-chat3 h4 {
+        font-size: 16px;
+    }
+
+    #live-chat h5, #live-chat2 h5, #live-chat2 h5 {
+        font-size: 12px;
+    }
+
+    #live-chat form {
+        padding: 24px;
+    }
+
+    #live-chat input[type="text"], #live-chat2 input[type="text"], #live-chat3 input[type="text"] {
+        border: none;
+        padding: 8px;
+        outline: none;
+        width: 80%;
+    }
+
+.chat-message-counter {
+    background: #e62727;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    left: 0;
+    line-height: 28px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 28px;
+}
+
+.chat-close {
+    background: #1b2126;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+
+    .chat-close:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.chat {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.chat-history, .chat-history2, .chat-history3 {
+    height: 400px;
+    padding: 8px;
+    overflow-y: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .10);
+}
+
+.chat-message {
+    margin: 16px 0;
+    position: relative;
+}
+
+    .chat-message > img {
+        border-radius: 50%;
+        float: left;
+        position: absolute;
+        bottom: 5px;
+    }
+
+.chat-message-content {
+    margin-left: 40px;
+    background: rgb(241, 240, 240);
+    color: rgba(0, 0, 0, 1);
+    padding: 6px 10px;
+    border-radius: 20px;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.chat-time {
+    /* float: right; */
+    font-size: 10px;
+    display: block;
+    text-align: center;
+}
+
+.chat-feedback {
+    font-style: italic;
+    margin: 0 0 0 80px;
+}
+
+.chat-message.user-msg {
+}
+
+    .chat-message.user-msg img {
+        float: right
+    }
+
+.user-msg .chat-message-content {
+    /* margin-right: 40px;
+    margin-left: 0; */
+    background: rgb(245, 130, 32);
+    color: #fff;
+    float: right;
+    text-align: right;
+}
+
+.btnChatBox, .btnChatBox2, .btnChatBox3 {
+    position: absolute;
+    bottom: 10px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: none;
+}
+
+.btnChatBox2 {
+    right: 100px;
+}
+.btnChatBox3 {
+    right: 200px;
+}
+
+    .btnChatBox:hover, .btnChatBox2:hover, .btnChatBox3:hover {
+        cursor: pointer
+    }
+
+    .btnChatBox i, .btnChatBox2 i, .btnChatBox3 i {
+        font-size: 50px;
+        color: rgb(245, 130, 32)
+    }
+
+.chat-input-box {
+    height: 50px;
+    line-height: 50px;
+}

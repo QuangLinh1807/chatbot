@@ -1,0 +1,111 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="ClientApp\build\**" />
+    <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\build\**" />
+    <EmbeddedResource Remove="ClientApp\build\**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\build\**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\build\.htaccess" />
+    <None Remove="ClientApp\build\16.e005b6ffb797496edd60.chunk.js" />
+    <None Remove="ClientApp\build\16.e005b6ffb797496edd60.chunk.js.gz" />
+    <None Remove="ClientApp\build\17.c7d60bac35736d311af8.chunk.js" />
+    <None Remove="ClientApp\build\favicon.ico" />
+    <None Remove="ClientApp\build\icon_120x120.2f7752bee9dcd06e998fd44640e47485.png" />
+    <None Remove="ClientApp\build\icon_128x128.e76c240129e3d6ee2eb7df8f1e9c7b0f.png" />
+    <None Remove="ClientApp\build\icon_144x144.f2f644149d1ca21bccb120d44e79c824.png" />
+    <None Remove="ClientApp\build\icon_152x152.80d43cecdc663299328632b85127117b.png" />
+    <None Remove="ClientApp\build\icon_167x167.9085aba6ea24073fba72a94b7ac731a1.png" />
+    <None Remove="ClientApp\build\icon_180x180.33285f999db78beed5640085c051e7b1.png" />
+    <None Remove="ClientApp\build\icon_192x192.9aeb7f7081bf5316fa2c57b439bffdbe.png" />
+    <None Remove="ClientApp\build\icon_384x384.f2d8221e40ea55159668a02741826386.png" />
+    <None Remove="ClientApp\build\icon_512x512.dc20f8a86234c4a7a0b08d5cffff9d4d.png" />
+    <None Remove="ClientApp\build\icon_72x72.0880a778e8031d3cb721b64c1c1059a7.png" />
+    <None Remove="ClientApp\build\icon_96x96.e26d703c83c9b5844bb4f58c397f4bf2.png" />
+    <None Remove="ClientApp\build\index.html" />
+    <None Remove="ClientApp\build\main.32cf573990dbecbb5749.chunk.js" />
+    <None Remove="ClientApp\build\main.32cf573990dbecbb5749.chunk.js.gz" />
+    <None Remove="ClientApp\build\manifest.47e77a2731a1bb975ed19ced8741b946.json" />
+    <None Remove="ClientApp\build\npm.axios.18c0c055d06b1cb7f67c.chunk.js" />
+    <None Remove="ClientApp\build\npm.axios.18c0c055d06b1cb7f67c.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.core-js.30d7e2862c65bc19c8a8.chunk.js" />
+    <None Remove="ClientApp\build\npm.core-js.30d7e2862c65bc19c8a8.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.intl.d3a1c26409e50e8a876d.chunk.js" />
+    <None Remove="ClientApp\build\npm.intl.d3a1c26409e50e8a876d.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.lodash.8fab7e457802accb54a3.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-app-polyfill.cce5b2ddda89e302acd2.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-app-polyfill.cce5b2ddda89e302acd2.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-autosuggest.318a9c32db55307aac35.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-autosuggest.318a9c32db55307aac35.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-autowhatever.c4f75d7705fcd297f1ad.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-autowhatever.c4f75d7705fcd297f1ad.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-bootstrap-table-next.f7d03aa22581affc1f21.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-bootstrap-table-next.f7d03aa22581affc1f21.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-bootstrap-table2-paginator.fbc1a942d299aade681b.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-bootstrap-table2-paginator.fbc1a942d299aade681b.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-redux.e19db8a4e8021c2ba8f2.chunk.js" />
+    <None Remove="ClientApp\build\npm.react-redux.e19db8a4e8021c2ba8f2.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.react-themeable.78d6ec11ea409733a2c9.chunk.js" />
+    <None Remove="ClientApp\build\npm.reactstrap.db611ebbd1f0e4ce4bf7.chunk.js" />
+    <None Remove="ClientApp\build\npm.reactstrap.db611ebbd1f0e4ce4bf7.chunk.js.gz" />
+    <None Remove="ClientApp\build\npm.section-iterator.651ba067820da047fa5e.chunk.js" />
+    <None Remove="ClientApp\build\npm.validator.b301501e179b8e67f24f.chunk.js" />
+    <None Remove="ClientApp\build\npm.validator.b301501e179b8e67f24f.chunk.js.gz" />
+    <None Remove="ClientApp\build\runtime.f0b7771d46f27fa950e9.js" />
+    <None Remove="ClientApp\build\sw.js" />
+    <None Remove="ClientApp\build\sw.js.gz" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)build\**; $(SpaRoot)build-ssr\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

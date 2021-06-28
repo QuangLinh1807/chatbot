@@ -1,0 +1,120 @@
+﻿/*--------- box chat ----------*/
+.box-chat {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 0 !important;
+}
+
+
+.box-chat-header, .box-chat-body {
+    padding: 15px 40px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.outgoing-msg {
+    text-align: -webkit-right;
+}
+
+.receive-msg {
+    width: 473px;
+}
+
+.incoming-msg p {
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.outgoing-msg p {
+    background-color: #1745f2;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    width: fit-content;
+}
+
+.box-chat-footer {
+    background-color: #f2f2f2;
+    padding: 15px 45px 17px 44px;
+}
+
+.text-input-user {
+    width: 680px;
+    display: inline-block;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+.btn-send {
+    width: 120px;
+    height: 46px;
+    background-color: #1745f2;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    float: right;
+}
+
+.text-input-user::placeholder {
+    font-style: italic;
+}
+
+/*--------- Popup success ----------*/
+.popup-final {
+    background-color: #f6f6f6;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.return-homepage-btn {
+    border: none;
+    background-color: #1745f2;
+    color: #fff;
+    border-radius: 10px;
+    width: 208px;
+    height: 38px;
+}
+.sank-div {
+    background: #000;
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.sank-div-done {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.popup-white {
+    display: block;
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    width: 100%;
+}
+.align-center {
+    text-align: center;
+}
+
+.back-homepage {
+    color: #fff;
+}
+    .back-homepage:hover {
+        color: #fff;
+        text-decoration: none;
+    }

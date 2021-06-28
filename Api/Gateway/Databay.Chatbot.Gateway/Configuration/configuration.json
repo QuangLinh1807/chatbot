@@ -1,0 +1,36 @@
+{
+	"ReRoutes": [
+		{
+			// Identity Server
+			"DownstreamPathTemplate": "/api/{version}/{everything}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					// Local host when run project
+					"Host": "localhost",
+					"Port": 5000
+				}
+			],
+			"UpstreamPathTemplate": "/identity/{everything}",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+		},
+		{
+			// Profile
+			"DownstreamPathTemplate": "/api/{version}/{everything}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					// Local host when run project
+					"Host": "localhost",
+					"Port": 5200
+				}
+			],
+			"UpstreamPathTemplate": "/services/{everything}",
+			"UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+		}
+	],
+	"GlobalConfiguration": {
+		// Direct
+		"BaseUrl": "https://localhost:7000"
+	}
+}

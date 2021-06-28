@@ -1,0 +1,25 @@
+﻿
+/*--------- box chat ----------*/
+
+.outgoing-msg {
+    text-align: -webkit-right;
+}
+
+.receive-msg {
+    width: 473px;
+}
+
+.incoming-msg p {
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 15px;
+    width: fit-content;
+}
+
+.outgoing-msg p {
+    background-color: #1745f2;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    width: fit-content;
+}
